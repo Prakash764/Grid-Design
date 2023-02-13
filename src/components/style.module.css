@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Raleway:wght@500;900&display=swap');
+
+
+.header{
+  background-color: #fff;
+ text-align: center;
+}
+.logo{
+  margin-bottom: 1rem;
+  margin-left: 4rem;
+  margin-top: 1rem;
+  width: 130px;
+  font-size: 33.6px;
+  color: #0084ff;
+  font-weight: 900;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  cursor: pointer;
+}
+.logo_stories{
+  display: block;
+  margin: 0;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  color: #000000;
+  cursor: pointer;
+}
+.drop_section{
+  position: absolute;
+  top:35px;
+  left: 17rem;
+}
+.drop{
+  cursor: pointer;
+}
+select {
+  text-align: center;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15.2px;
+  border: #fff;
+}
+.dropdown{
+  cursor: pointer;
+}
+.quote{
+  min-width: 23em;
+    opacity: .6;
+    font-family: Raleway,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: .4px;
+    text-align: center;
+    color: rgba(0,0,0,.6);
+    margin-top: -3.5rem;
+    margin-right: -18rem;
+    padding-bottom: 12px;
+}
+.web_btn{
+  text-align: end;
+  margin-right: 7rem;
+  position: absolute;
+  top: 1.8rem;
+  right: 1.5%;
+}
+button{
+  width: auto;
+  height: 40px;
+  min-width: 100px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  border-radius: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  cursor: pointer;
+  padding: 8px 32px;
+  margin-right: 16px;
+  color: #fff;
+  outline: none;
+  font-family: Raleway,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: .03em;
+  background: #0084ff;
+  background: -webkit-linear-gradient(269deg,#0048ff,#0096ff);
+  background: -webkit-linear-gradient(181deg,#0048ff,#0096ff);
+}
+
+
+.main_sec{
+  background-color: #f4f6ff;
+}
+.posts{
+  margin: 0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.94;
+    letter-spacing: -.9px;
+    text-align: left;
+    margin-left: 14rem;
+    padding:16px;
+}
+.latest{
+  padding:16px;
+  font-size: 24px;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 14rem;
+}
+
+.filter{
+  font-size: 13.6px;
+  font-family: 'Raleway',sans-serif;
+  text-align: left;
+  margin-left: 18rem;
+}
+.icon{
+  width: 15px;
+  height:15px;
+  position: absolute;
+  top:42.6rem;
+  left: 16rem;
+}
+.cat_box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 14px;
+  justify-content: center;
+}
+.category_section{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.btn{
+  width: auto;
+  font-size:.80rem;
+  color: #0084ff;
+  padding: 6px 16px;
+  border-radius: 15px;
+  border: 1px solid #0084ff;
+  margin: 5px;
+}
+.btn:hover{
+  color: #ffffff;
+  background-color: #0084ff;
+  cursor: pointer;
+}
+
+.blog_grid{
+  display:flex;
+  flex-wrap:wrap;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  justify-content: center;
+}
+.blog_card{
+  width:281.6px;
+  border: 1px solid rgba(0,168,255,.3);
+  border-radius:5px;
+  box-shadow:0 0 20px rgb(0 0 0 / 10%);
+  margin:8px;
+  cursor: pointer;
+}
+.thumbnail{
+ width:100%;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+}
+.blog_wrapper{
+padding:12px 24px;
+}
+.blog_title{
+margin:0;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.14;
+}
+.author_info{
+padding:10px 0 16px;
+}
+a:link{
+  text-decoration: none;
+}
+.author_name{
+color: #0096ff;
+font-size: 14px;
+font-weight: 500;
+}
+.blog_date{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+.blog_desc{
+    margin:0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0.43px;
+    opacity:0.5;
+
+}
+
+.foot{
+  background-color: #172146;
+  height: 10rem;
+  margin:20px 0px 0px 0px;
+}
